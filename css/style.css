@@ -1,0 +1,136 @@
+/* ------RESET------ */
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, a, abbr, address, code, em, img, small, strike, strong, sub, sup, b, u, i, fieldset, form, label, legend, table, caption, tbody, tfoot,
+thead, tr, th, td, article, aside, canvas, figure, figcaption, footer, header, nav, section
+/* ,ol, ul, li */
+  {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  position: relative;
+}
+
+::-moz-selection {
+  color: white;
+  background: #553B32;
+}
+
+::selection {
+  color: white;
+  background: #553B32;
+}
+
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: auto;
+}
+
+
+/*----------------body-------------------*/
+
+@font-face {
+  font-family: 'Benguiat';
+  src: url("../Font/BenguiatStd-Bold.otf");
+}
+
+
+.container {
+  width: 670px;
+  height: 1192px;
+  background-image: url("../image/strangerthings.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container div {
+  flex: 1;
+  margin-top: 18px;
+}
+
+
+.border-bound {
+  box-shadow: -0.05rem -0.05rem 2px rgba(255,0,0,1),
+    0.05rem -0.05rem 2px rgba(255,0,0,1),
+    -0.05rem 0.05rem 2px rgba(255,0,0,1),
+    0.05rem 0.05rem 2px rgba(255,0,0,1);
+  height: 3px;
+}
+
+.border-full {
+  margin-bottom: -19px;
+}
+
+.border-mini {
+  margin-top: 0.5rem;
+  bottom: 38px;
+}
+
+.border-left {
+  float: left;
+  width: 65px;
+  position: relative;
+  left: 5px;
+}
+
+.border-right {
+  float: right;
+  width: 69px;
+  left: 0.3rem;
+  position: relative;
+}
+
+.st-bottom {
+  top: -57px;
+  position: relative;
+  left: 7px;
+  letter-spacing: 2px;
+}
+
+.st-boud {
+  line-height: 0;
+  position: relative;
+  top: 17px;
+}
+
+.container  h1 {
+  font-family: 'Benguiat';
+  text-align: center;
+  color: #f4511e;
+  font-size: 60px;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 2px red;
+  filter: drop-shadow(0 0 15px rgba(255,0,0,1));
+  display: flex;
+}
+
+.container .st-top  h1 {
+}
+
+.st-trange {
+  margin-top: 13px;
+}
+
+.container .letter-S {
+  font-size: 90px;
+  letter-spacing: -5px;
+}
+.container .letter-R {
+  font-size: 90px;
+  letter-spacing: -1px;
+}
+
+.st-bottom p {
+  color: white;
+}
